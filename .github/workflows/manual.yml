@@ -21,4 +21,5 @@ jobs:
     
     # Runs a single command using the runners shell
     - name: Start Notepad
-      run: startNP.bat
+      run: |
+        .\startNP.bat
