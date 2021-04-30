@@ -16,6 +16,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - uses: kewelbeanz/githubActionsTest
     # Runs a single command using the runners shell
     - name: Start Notepad
       run: startNP.bat
